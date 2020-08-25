@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Temporary User\\Desktop\\RAGE Cargo\\RAGE Cargo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Temporary User\\Desktop\\RAGE Cargo\\RAGE Cargo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Temporary User\\Desktop\\RAGE Cargo\\RAGE Cargo.csproj",
+        "projectName": "RAGE Cargo",
+        "projectPath": "C:\\Users\\Temporary User\\Desktop\\RAGE Cargo\\RAGE Cargo.csproj",
+        "packagesPath": "C:\\Users\\Temporary User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Temporary User\\Desktop\\RAGE Cargo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Temporary User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.4, )"
+            },
+            "RAGEMP-Bootstrapper": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

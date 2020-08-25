@@ -1,0 +1,60 @@
+Initializing Bootstrapper.dll (1.1.0.0)..
+-> SERVER STARTED AT 25/08/2020 07:54:55
+Loaded 667 entries from vehicleData.json
+Loading resources..
+-> Starting Main resource..
+Main: loading scripts.. found 1 script(s)
+Main: instantiating RAGE_Cargo.Main..
+Main: instantiating RAGE_Cargo.Main+Database..
+Main: loading server events.. found 1 server event(s)
+Main: loaded 1 server events(s)
+Main: loading commands.. found 2 command(s)
+Main: loaded 2 commands(s)
+-> Resource Main started!
+Started! Waiting for connections..
+UNHANDLED EXCEPTION IN COMMAND register FOR RESOURCE Main
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "accname" of relation "accounts" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at async Task<int> Npgsql.NpgsqlCommand.ExecuteNonQuery(bool async, CancellationToken cancellationToken)
+   at int Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at void RAGE_Cargo.Main.sqltest(Player player, int arg1, int arg2) in C:/Users/Temporary User/Desktop/RAGE Cargo/dotnet/resources/Main/Main.cs:line 60
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "accname" of relation "accounts" does not exist
+    Position: 22
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 1034
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+   at bool GTANetworkInternals.CommandParser.Parse(Player sender, string cmdRaw, string ourcmd, string[] args)
+UNHANDLED EXCEPTION IN COMMAND register FOR RESOURCE Main
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at async Task<int> Npgsql.NpgsqlCommand.ExecuteNonQuery(bool async, CancellationToken cancellationToken)
+   at int Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at void RAGE_Cargo.Main.sqltest(Player player, int arg1, int arg2) in C:/Users/Temporary User/Desktop/RAGE Cargo/dotnet/resources/Main/Main.cs:line 60
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+   at bool GTANetworkInternals.CommandParser.Parse(Player sender, strin

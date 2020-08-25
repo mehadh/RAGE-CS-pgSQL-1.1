@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RD6b8siN7KbWI1lRVwXEhxlI49n7r6q6va/SoXlhkPfIlTbH4N5ETv9WQAjkiMsBDHW5G2ysCEal3x04saJfLg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Temporary User\\Desktop\\RAGE Cargo\\dotnet\\runtime\\RAGE Cargo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Temporary User\\.nuget\\packages\\npgsql\\4.1.4\\npgsql.4.1.4.nupkg.sha512",
+    "C:\\Users\\Temporary User\\.nuget\\packages\\ragemp-bootstrapper\\1.1.1\\ragemp-bootstrapper.1.1.1.nupkg.sha512",
+    "C:\\Users\\Temporary User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

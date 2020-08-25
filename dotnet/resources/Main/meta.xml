@@ -1,0 +1,8 @@
+<meta>
+    <info name="RAGE:Cargo Main" description="Main resource to RAGE:Cargo" />
+    <!-- Uncompiled: -->
+    <!-- <script src="Main.cs" /> -->
+    <!-- Compiled: -->
+    <!-- <script src="bin/Debug/netcoreapp3.1/Main.dll" /> -->
+	 <script src="RAGE Cargo.dll" /> 
+</meta>

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>RAGE_Cargo</RootNamespace>
+    <RuntimeFrameworkVersion>2.0.3</RuntimeFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RAGEMP-Bootstrapper" Version="*"/>
+    <PackageReference Include="Npgsql" Version="4.1.4"/>
+  </ItemGroup>
+</Project>

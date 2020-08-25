@@ -1,0 +1,872 @@
+
+==================[25/08/2020 07:46:57]==================
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10035): A non-blocking socket operation could not be completed immediately. [::1]:5432
+   at void System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+=========================================================
+
+==================[25/08/2020 07:47:29]==================
+System.InvalidOperationException: Connection is not open
+   at NpgsqlConnector Npgsql.NpgsqlConnection.CheckReadyAndGetConnector()
+=========================================================
+
+==================[25/08/2020 07:47:29]==================
+System.InvalidOperationException: Connection is not open
+   at NpgsqlConnector Npgsql.NpgsqlConnection.CheckReadyAndGetConnector()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[25/08/2020 07:47:29]==================
+System.InvalidOperationException: Connection is not open
+   at NpgsqlConnector Npgsql.NpgsqlConnection.CheckReadyAndGetConnector()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at async Task<int> Npgsql.NpgsqlCommand.ExecuteNonQuery(bool async, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[25/08/2020 07:47:29]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidOperationException: Connection is not open
+   at NpgsqlConnector Npgsql.NpgsqlConnection.CheckReadyAndGetConnector()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at async Task<int> Npgsql.NpgsqlCommand.ExecuteNonQuery(bool async, CancellationToken cancellationToken)
+   at int Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at void RAGE_Cargo.Main.sqltest(Player player, int arg1, int arg2) in C:/Users/Temporary User/Desktop/RAGE Cargo/dotnet/resources/Main/Main.cs:line 57
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[25/08/2020 07:47:43]==================
+System.InvalidOperationException: Connection is not open
+   at NpgsqlConnector Npgsql.NpgsqlConnection.CheckReadyAndGetConnector()
+=========================================================
+
+==================[25/08/2020 07:47:43]==================
+System.InvalidOperationException: Connection is not open
+   at NpgsqlConnector Npgsql.NpgsqlConnection.CheckReadyAndGetConnector()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[25/08/2020 07:47:43]==================
+System.InvalidOperationException: Connection is not open
+   at NpgsqlConnector Npgsql.NpgsqlConnection.CheckReadyAndGetConnector()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at async Task<int> Npgsql.NpgsqlCommand.ExecuteNonQuery(bool async, CancellationToken cancellationToken)
+   at void System.Runt
+==================[25/08/2020 07:51:17]==================
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10035): A non-blocking socket operation could not be completed immediately. [::1]:5432
+   at void System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+=========================================================
+
+==================[25/08/2020 07:51:26]==================
+Npgsql.PostgresException (0x80004005): 42601: syntax error at or near "table"
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42601
+    MessageText: syntax error at or near "table"
+    Position: 13
+    File: scan.l
+    Line: 1149
+    Routine: scanner_yyerror
+=========================================================
+
+==================[25/08/2020 07:51:26]==================
+Npgsql.PostgresException (0x80004005): 42601: syntax error at or near "table"
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42601
+    MessageText: syntax error at or near "table"
+    Position: 13
+    File: scan.l
+    Line: 1149
+    Routine: scanner_yyerror
+=========================================================
+
+==================[25/08/2020 07:51:26]==================
+Npgsql.PostgresException (0x80004005): 42601: syntax error at or near "table"
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42601
+    MessageText: syntax error at or near "table"
+    Position: 13
+    File: scan.l
+    Line: 1149
+    Routine: scanner_yyerror
+=========================================================
+
+==================[25/08/2020 07:51:26]==================
+Npgsql.PostgresException (0x80004005): 42601: syntax error at or near "table"
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42601
+    MessageText: syntax error at or near "table"
+    Position: 13
+    File: scan.l
+    Line: 1149
+    Routine: scanner_yyerror
+=========================================================
+
+==================[25/08/2020 07:51:26]==================
+Npgsql.PostgresException (0x80004005): 42601: syntax error at or near "table"
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42601
+    MessageText: syntax error at or near "table"
+    Position: 13
+    File: scan.l
+    Line: 1149
+    Routine: scanner_yyerror
+=========================================================
+
+==================[25/08/2020 07:51:26]==================
+Npgsql.PostgresException (0x80004005): 42601: syntax error at or near "table"
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResu
+==================[25/08/2020 07:54:56]==================
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10035): A non-blocking socket operation could not be completed immediately. [::1]:5432
+   at void System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+=========================================================
+
+==================[25/08/2020 07:55:06]==================
+Npgsql.PostgresException (0x80004005): 42703: column "accname" of relation "accounts" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "accname" of relation "accounts" does not exist
+    Position: 22
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 1034
+    Routine: checkInsertTargets
+=========================================================
+
+==================[25/08/2020 07:55:06]==================
+Npgsql.PostgresException (0x80004005): 42703: column "accname" of relation "accounts" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "accname" of relation "accounts" does not exist
+    Position: 22
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 1034
+    Routine: checkInsertTargets
+=========================================================
+
+==================[25/08/2020 07:55:06]==================
+Npgsql.PostgresException (0x80004005): 42703: column "accname" of relation "accounts" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "accname" of relation "accounts" does not exist
+    Position: 22
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 1034
+    Routine: checkInsertTargets
+=========================================================
+
+==================[25/08/2020 07:55:06]==================
+Npgsql.PostgresException (0x80004005): 42703: column "accname" of relation "accounts" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "accname" of relation "accounts" does not exist
+    Position: 22
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 1034
+    Routine: checkInsertTargets
+=========================================================
+
+==================[25/08/2020 07:55:06]==================
+Npgsql.PostgresException (0x80004005): 42703: column "accname" of relation "accounts" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "accname" of relation "accounts" does not exist
+    Position: 22
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 1034
+    Routine: checkInsertTargets
+=========================================================
+
+==================[25/08/2020 07:55:06]==================
+Npgsql.PostgresException (0x80004005): 42703: column "accname" of relation "accounts" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "accname" of relation "accounts" does not exist
+    Position: 22
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 1034
+    Routine: checkInsertTargets
+=========================================================
+
+==================[25/08/2020 07:55:06]==================
+Npgsql.PostgresException (0x80004005): 42703: column "accname" of relation "accounts" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "accname" of relation "accounts" does not exist
+    Position: 22
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 1034
+    Routine: checkInsertTargets
+=========================================================
+
+==================[25/08/2020 07:55:06]==================
+Npgsql.PostgresException (0x80004005): 42703: column "accname" of relation "accounts" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "accname" of relation "accounts" does not exist
+    Position: 22
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 1034
+    Routine: checkInsertTargets
+=========================================================
+
+==================[25/08/2020 07:55:06]==================
+Npgsql.PostgresException (0x80004005): 42703: column "accname" of relation "accounts" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at async Task<int> Npgsql.NpgsqlCommand.ExecuteNonQuery(bool async, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "accname" of relation "accounts" does not exist
+    Position: 22
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 1034
+    Routine: checkInsertTargets
+=========================================================
+
+==================[25/08/2020 07:55:06]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "accname" of relation "accounts" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at async Task<int> Npgsql.NpgsqlCommand.ExecuteNonQuery(bool async, CancellationToken cancellationToken)
+   at int Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at void RAGE_Cargo.Main.sqltest(Player player, int arg1, int arg2) in C:/Users/Temporary User/Desktop/RAGE Cargo/dotnet/resources/Main/Main.cs:line 60
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "accname" of relation "accounts" does not exist
+    Position: 22
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 1034
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[25/08/2020 08:02:43]==================
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10035): A non-blocking socket operation could not be completed immediately. [::1]:5432
+   at void System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+=========================================================
+
+==================[25/08/2020 08:02:43]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:02:43]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:02:43]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:02:43]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:02:43]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:02:43]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:02:43]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:02:43]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:02:43]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at async Task<int> Npgsql.NpgsqlCommand.ExecuteNonQuery(bool async, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:02:43]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at async Task<int> Npgsql.NpgsqlCommand.ExecuteNonQuery(bool async, CancellationToken cancellationToken)
+   at int Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at void RAGE_Cargo.Main.sqltest(Player player, int arg1, int arg2) in C:/Users/Temporary User/Desktop/RAGE Cargo/dotnet/resources/Main/Main.cs:line 60
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[25/08/2020 08:05:04]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:05:04]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:05:04]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:05:04]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:05:04]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:05:04]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:05:04]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, b
+==================[25/08/2020 08:07:23]==================
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10035): A non-blocking socket operation could not be completed immediately. [::1]:5432
+   at void System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+=========================================================
+
+==================[25/08/2020 08:07:45]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:07:45]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:07:45]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:07:45]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:07:45]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:07:45]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:07:45]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:07:45]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:07:45]==================
+Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at async Task<int> Npgsql.NpgsqlCommand.ExecuteNonQuery(bool async, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "p" does not exist
+    Position: 45
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_relation.c
+    Line: 3359
+    Routine: errorMissingColumn
+=========================================================
+
+==================[25/08/2020 08:07:45]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "p" does not exist
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass16
+==================[25/08/2020 01:33:11]==================
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10035): A non-blocking socket operation could not be completed immediately. [::1]:5432
+   at void System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+=========================================================
+
+==================[25/08/2020 01:33:31]==================
+Npgsql.PostgresException (0x80004005): 42804: column "pin" is of type smallint but expression is of type text
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "pin" is of type smallint but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 48
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 592
+    Routine: transformAssignedExpr
+=========================================================
+
+==================[25/08/2020 01:33:31]==================
+Npgsql.PostgresException (0x80004005): 42804: column "pin" is of type smallint but expression is of type text
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "pin" is of type smallint but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 48
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 592
+    Routine: transformAssignedExpr
+=========================================================
+
+==================[25/08/2020 01:33:31]==================
+Npgsql.PostgresException (0x80004005): 42804: column "pin" is of type smallint but expression is of type text
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "pin" is of type smallint but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 48
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 592
+    Routine: transformAssignedExpr
+=========================================================
+
+==================[25/08/2020 01:33:31]==================
+Npgsql.PostgresException (0x80004005): 42804: column "pin" is of type smallint but expression is of type text
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "pin" is of type smallint but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 48
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 592
+    Routine: transformAssignedExpr
+=========================================================
+
+==================[25/08/2020 01:33:31]==================
+Npgsql.PostgresException (0x80004005): 42804: column "pin" is of type smallint but expression is of type text
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "pin" is of type smallint but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 48
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 592
+    Routine: transformAssignedExpr
+=========================================================
+
+==================[25/08/2020 01:33:31]==================
+Npgsql.PostgresException (0x80004005): 42804: column "pin" is of type smallint but expression is of type text
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "pin" is of type smallint but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 48
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 592
+    Routine: transformAssignedExpr
+=========================================================
+
+==================[25/08/2020 01:33:31]==================
+Npgsql.PostgresException (0x80004005): 42804: column "pin" is of type smallint but expression is of type text
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "pin" is of type smallint but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 48
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 592
+    Routine: transformAssignedExpr
+=========================================================
+
+==================[25/08/2020 01:33:31]==================
+Npgsql.PostgresException (0x80004005): 42804: column "pin" is of type smallint but expression is of type text
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at async Task<bool> Npgsql.NpgsqlDataReader.NextResult(bool async, bool isConsuming)
+   at bool Npgsql.NpgsqlDataReader.NextResult()
+   at async ValueTask<NpgsqlDataReader> Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, bool async, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "pin" is of type smallint but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 48
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\parser\parse_target.c
+    Line: 592
+    Routine: transformAssignedExpr
+=========================================================
+
+==================[25/08/2020 01:33:31]==================
+Npgsql.PostgresException (0x80004005): 42804: column "pin" is of type smallint but expression is of type text
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at void Npgsql.NpgsqlConnector+<>c__DisplayClass160_0+<<DoReadMessage>g__Rea
